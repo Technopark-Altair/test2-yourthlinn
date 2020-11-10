@@ -1,1 +1,132 @@
-/* You can add global styles to this file, and also import other style files */
+p {
+  background-color: rgba(199, 170, 126, 0.562);
+}
+button {
+  padding : 15px;
+  font-size: 30px;
+  border-radius: 14px;
+  border-color: rgba(204, 175, 132, 0.349);
+  background-color: rgba(75, 135, 224, 0.712);
+}
+button:hover {
+  background-color : rgb(212, 171, 80, 0.849);
+  border-color : rgb(212, 171, 80, 0.849);
+}
+button:focus {
+  background-color : rgba(145, 106, 33, 0.651);
+  border-color : rgb(90, 62, 9, 0.788);
+}
+body {
+  background-color: rgb(211, 170, 116, 0.63);
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+  background-color: rgb(110, 79, 21, 0.685);
+}
+ol, ul {
+  background-color: rgb(204, 162, 83, 0.274);
+}
+
+* {box-sizing: border-box}
+
+div.gallery {
+  margin : 100px;
+  padding : 10px;
+  float : left;
+  width : 400px;
+  border : 1px solid rgba(107, 76, 30, 0.815);
+  border-radius: 2px;
+}
+div.gallery:hover {
+  background-color: rgba(129, 90, 32, 0.925);
+  opacity: 0.8;
+}
+div.desc {
+  padding: 1px;
+  text-align: center;
+}
+* {box-sizing:border-box}
+
+.slideshow-container {
+max-width: 100%;
+position: relative;
+margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+background-color: rgba(212, 150, 91, 0.8);
+}
+
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
